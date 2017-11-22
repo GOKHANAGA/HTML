@@ -1,0 +1,5 @@
+C:\Users\Gökhan\Desktop\20171122Homework\DIVStyle\bin\DIVStyle.dll.config
+C:\Users\Gökhan\Desktop\20171122Homework\DIVStyle\bin\DIVStyle.dll
+C:\Users\Gökhan\Desktop\20171122Homework\DIVStyle\bin\DIVStyle.pdb
+C:\Users\Gökhan\Desktop\20171122Homework\DIVStyle\obj\Debug\DIVStyle.dll
+C:\Users\Gökhan\Desktop\20171122Homework\DIVStyle\obj\Debug\DIVStyle.pdb
