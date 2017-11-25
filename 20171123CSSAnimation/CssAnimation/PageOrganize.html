@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            height: 750px;
+            background: no-repeat,linear-gradient(aquamarine,white);
+        }
+
+        header, nav, aside, content, article, section, footer, div {
+            border: 2px solid red;
+        }
+
+        header, nav {
+            text-align: center;
+            background-color: #1f6f59;
+        }
+
+        aside {
+            float: left;
+            height: 200px;
+            width: 20%;
+            margin-left: 2%;
+        }
+
+            aside li, #menu li {
+                list-style-type: none;
+                line-height: 25px;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 20px;
+                font-family: 'Comic Sans MS';
+            }
+
+            aside ul {
+                margin-top: 30px;
+            }
+
+        content {
+            position: relative;
+            display: inline-block;
+            height: 300px;
+            width: 70%;
+            margin-left: 3%;
+        }
+
+
+        #menu > li {
+            list-style-type: none;
+            display: inline-block;
+            text-align: center;
+            width: 20%;
+            line-height: 50px;
+        }
+
+        footer {
+            line-height: 60px;
+            text-align: center;
+            height: 60px;
+        }
+
+        #icerik {
+            margin:25px;
+            width: 80%;
+            height: 100px;
+            position: relative;
+            margin-left: 10%;
+        }
+
+        #icerikResim {
+            display:inline-block;
+            position: absolute;
+            margin-bottom:6%;
+            margin-left: 5%;
+            width: 60px;
+            height: 60px;
+        }
+
+        #icerikBaslik {
+            display: inline-block;
+            position: absolute;
+            width: 70%x;
+            height: 20%;
+        }
+
+        #icerikDetay {
+            display: inline-block;
+            position: relative;
+            margin-top:7%;
+            width: 70%;
+            height: 70%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Haber Bölümü
+    </header>
+    <nav>
+        <ul id="menu">
+            <li>Ana Sayfa</li>
+            <li>Hakkımızda</li>
+            <li>Galeri</li>
+            <li>İletişim</li>
+        </ul>
+    </nav>
+    <aside>
+        <ul>
+            <li>Haber1</li>
+            <li>Haber2</li>
+            <li>Haber3</li>
+        </ul>
+    </aside>
+    <content>
+        <section id="icerik">
+            <div id="icerikResim">
+
+            </div>
+            <div id="icerikBaslik">
+
+            </div>
+            <div id="icerikDetay">
+
+            </div>
+        </section>
+
+    </content>
+    <footer>Gökhan Irmak © Tüm Hakları Saklıdır</footer>
+</body>
+</html>
